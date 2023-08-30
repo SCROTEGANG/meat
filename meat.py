@@ -14,7 +14,7 @@ async def main():
         sys.exit("$MEAT_TOKEN is not set")
     
     if model_path is None:
-        sys.exit("$MODEL_PATH is not set")
+        sys.exit("$MEAT_MODEL_PATH is not set")
 
 
     client = discord.Client(allowed_mentions=discord.AllowedMentions(everyone=False, users=False, roles=False, replied_user=True))
