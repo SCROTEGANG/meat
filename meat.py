@@ -29,7 +29,7 @@ async def main():
         if client.user.mentioned_in(msg):
             async with msg.channel.typing():
                 content = mention_re.sub(msg.content, "")
-                cnts = ai.generate(n=10, prompt=content.strip(), return_as_list=True)
+                cnts = ai.generate(n=10, temperature=1.0, prompt=content.strip(), return_as_list=True)
                 for cnt in cnts:
                     if cnt == content:
                         continue
