@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.10.13
 
 WORKDIR /bot
 
@@ -10,4 +10,4 @@ RUN pipenv install --system
 
 COPY ./ ./
 
-CMD ["python", "meat.py"]
+CMD ["python", "main.py"]

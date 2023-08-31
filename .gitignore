@@ -1,2 +1,4 @@
 /trained_model
 *.zip
+.env
+__pycache__
