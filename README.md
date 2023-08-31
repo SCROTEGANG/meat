@@ -17,6 +17,12 @@ MEAT_MODEL_PATH=/trained_model
 MEAT_TRANSLATE_KEY=wowthisisfake
 MEAT_TRANSLATE_REGION=westus2
 MEAT_TRANSLATE_ENDPOINT=https://somelink.url
+# Path to the Meat's config file
+MEAT_CONFIG_PATH=/config/config.json
+# Toggles Meat speaking on his own when a config doesn't exist
+MEAT_SPEAK_DEFAULT=true
+ # The channel to speak in
+MEAT_SPEAK_CHANNEL=1111111111112
 ```
 
 # License

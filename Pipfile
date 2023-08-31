@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 discord = "*"
 aitextgen = {editable = true, ref = "pin", git = "git+https://github.com/holedaemon/aitextgen.git"}
+aiofiles = "*"
 
 [dev-packages]
 
