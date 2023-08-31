@@ -9,14 +9,14 @@ You can run Meat using the provided [Docker image](https://github.com/SCROTEGANG
 
 ```sh
 # Your Discord bot token
-MEAT_TOKEN=Mjc5MzYyMjk0NTc0NDgxNDEw.WJzeaQ.SjLx1Yp3qET9Bh5WJdebYTGOEmY
+MEAT_TOKEN=wowafake.token
 # Path to your trained model
 MEAT_MODEL_PATH=/trained_model
 # Azure text translation variables so Meat can speak Korean.
 # See https://learn.microsoft.com/en-us/azure/ai-services/translator/text-translation-overview for more info.
-MEAT_TRANSLATE_KEY=6b88d0fdb16a4485a12c1766c5c49b05
+MEAT_TRANSLATE_KEY=wowthisisfake
 MEAT_TRANSLATE_REGION=westus2
-MEAT_TRANSLATE_ENDPOINT=https://api.cognitive.microsofttranslator.com
+MEAT_TRANSLATE_ENDPOINT=https://somelink.url
 ```
 
 # License
